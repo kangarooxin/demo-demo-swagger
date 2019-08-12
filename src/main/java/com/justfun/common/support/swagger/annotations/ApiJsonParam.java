@@ -20,8 +20,6 @@ public @interface ApiJsonParam {
 
     String type() default "query";
 
-    boolean arrayType() default false;
-
     Class<?> dataTypeClass() default Void.class;
 
     Class<?>[] dataTypeParametersClass() default {};

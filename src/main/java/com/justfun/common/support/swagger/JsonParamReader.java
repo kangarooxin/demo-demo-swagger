@@ -56,8 +56,6 @@ public class JsonParamReader implements ParameterBuilderPlugin {
         ResolvedType modelType;
         if(anno.dataTypeClass().isAssignableFrom(Void.class)) {
             modelType = methodParameter.getParameterType();
-        } else if(anno.arrayType()) {
-            modelType = typeResolver.arrayType(typeResolver.resolve(anno.dataTypeClass(), anno.dataTypeParametersClass()));
         } else {
             modelType = typeResolver.resolve(anno.dataTypeClass(), anno.dataTypeParametersClass());
         }

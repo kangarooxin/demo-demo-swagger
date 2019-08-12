@@ -37,8 +37,6 @@ public class JsonModelsProvider implements OperationModelsProviderPlugin {
             ResolvedType modelType;
             if(anno.dataTypeClass().isAssignableFrom(Void.class)) {
                 modelType = context.alternateFor(parameterType.getParameterType());
-            } else if(anno.arrayType()) {
-                modelType = typeResolver.arrayType(typeResolver.resolve(anno.dataTypeClass(), anno.dataTypeParametersClass()));
             } else {
                 modelType = typeResolver.resolve(anno.dataTypeClass(), anno.dataTypeParametersClass());
             }
