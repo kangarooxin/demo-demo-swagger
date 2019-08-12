@@ -10,6 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.annotation.Annotation;
 
+/**
+ * @author pangxin001
+ */
 public abstract class AnnotationMethodArgumentResolver<T extends Annotation> implements HandlerMethodArgumentResolver {
 
     private Class<T> clazz;

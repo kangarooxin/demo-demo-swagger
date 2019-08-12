@@ -11,6 +11,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.net.URLEncoder;
 
+/**
+ * @author pangxin001
+ */
 public class RequestJsonParamMethodArgumentResolver extends AnnotationMethodArgumentResolver<RequestJsonParam> {
 
     public RequestJsonParamMethodArgumentResolver() {
