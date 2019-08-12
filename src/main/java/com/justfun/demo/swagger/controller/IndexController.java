@@ -1,10 +1,9 @@
 package com.justfun.demo.swagger.controller;
 
-import com.justfun.demo.swagger.annotation.RequestJsonBody;
-import com.justfun.demo.swagger.annotation.RequestJsonParam;
+import com.justfun.common.annotation.RequestJsonBody;
+import com.justfun.common.support.swagger.annotations.ApiJsonParam;
 import com.justfun.demo.swagger.model.UserInfo;
-import com.justfun.demo.swagger.support.swagger.annotations.ApiJsonParam;
-import com.justfun.demo.swagger.util.JsonUtils;
+import com.justfun.common.util.JsonUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

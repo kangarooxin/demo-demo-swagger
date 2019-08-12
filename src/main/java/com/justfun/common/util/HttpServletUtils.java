@@ -1,4 +1,4 @@
-package com.justfun.demo.swagger.util;
+package com.justfun.common.util;
 
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.RequestMethod;

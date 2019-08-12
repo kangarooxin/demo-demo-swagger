@@ -1,9 +1,9 @@
-package com.justfun.demo.swagger.support.swagger;
+package com.justfun.common.support.swagger;
 
 import com.fasterxml.classmate.ResolvedType;
 import com.google.common.base.Predicate;
 import com.google.common.collect.FluentIterable;
-import com.justfun.demo.swagger.support.swagger.annotations.ApiJsonParam;
+import com.justfun.common.support.swagger.annotations.ApiJsonParam;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanPostProcessor;

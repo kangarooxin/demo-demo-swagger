@@ -1,4 +1,4 @@
-package com.justfun.demo.swagger.util;
+package com.justfun.common.util;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonParser;

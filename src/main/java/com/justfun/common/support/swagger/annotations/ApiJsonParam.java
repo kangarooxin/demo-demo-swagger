@@ -1,4 +1,4 @@
-package com.justfun.demo.swagger.support.swagger.annotations;
+package com.justfun.common.support.swagger.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

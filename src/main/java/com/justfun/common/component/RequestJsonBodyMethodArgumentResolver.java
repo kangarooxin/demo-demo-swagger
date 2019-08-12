@@ -1,8 +1,8 @@
-package com.justfun.demo.swagger.component;
+package com.justfun.common.component;
 
-import com.justfun.demo.swagger.annotation.RequestJsonBody;
-import com.justfun.demo.swagger.util.HttpServletUtils;
-import com.justfun.demo.swagger.util.JsonUtils;
+import com.justfun.common.annotation.RequestJsonBody;
+import com.justfun.common.util.HttpServletUtils;
+import com.justfun.common.util.JsonUtils;
 import org.springframework.core.MethodParameter;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.MissingServletRequestParameterException;

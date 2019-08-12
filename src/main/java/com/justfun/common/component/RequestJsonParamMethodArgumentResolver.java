@@ -1,7 +1,7 @@
-package com.justfun.demo.swagger.component;
+package com.justfun.common.component;
 
-import com.justfun.demo.swagger.annotation.RequestJsonParam;
-import com.justfun.demo.swagger.util.JsonUtils;
+import com.justfun.common.annotation.RequestJsonParam;
+import com.justfun.common.util.JsonUtils;
 import org.springframework.core.MethodParameter;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.MissingServletRequestParameterException;
@@ -26,7 +26,7 @@ public class RequestJsonParamMethodArgumentResolver extends AnnotationMethodArgu
         String value = request.getParameter(paramName);
         if(!StringUtils.isEmpty(value)) {
             if(anno.urlDecode()) {
-                value = URLEncoder.encode(value);
+                value = URLEncoder.encode(value, "UTF-8");
             }
             Object ret = JsonUtils.parse(value, JsonUtils.constructJavaType(parameter.getGenericParameterType()));
             if(ret == null) {

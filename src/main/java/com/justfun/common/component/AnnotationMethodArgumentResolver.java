@@ -1,4 +1,4 @@
-package com.justfun.demo.swagger.component;
+package com.justfun.common.component;
 
 import org.springframework.core.MethodParameter;
 import org.springframework.web.bind.support.WebDataBinderFactory;

@@ -19,7 +19,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 @EnableSwagger2
 @ComponentScan(basePackages = {
-        "com.justfun.demo.swagger.support.swagger",
+        "com.justfun.common.support.swagger",
 })
 public class SwaggerConfig {
 

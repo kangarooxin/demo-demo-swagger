@@ -1,4 +1,4 @@
-package com.justfun.demo.swagger.annotation;
+package com.justfun.common.annotation;
 
 import java.lang.annotation.*;
 

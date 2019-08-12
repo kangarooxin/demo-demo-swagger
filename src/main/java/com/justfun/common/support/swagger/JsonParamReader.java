@@ -1,11 +1,10 @@
-package com.justfun.demo.swagger.support.swagger;
+package com.justfun.common.support.swagger;
 
 import com.fasterxml.classmate.ResolvedType;
 import com.fasterxml.classmate.TypeResolver;
-import com.fasterxml.classmate.types.ResolvedObjectType;
 import com.google.common.base.Optional;
 
-import com.justfun.demo.swagger.support.swagger.annotations.ApiJsonParam;
+import com.justfun.common.support.swagger.annotations.ApiJsonParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
