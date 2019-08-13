@@ -3,7 +3,7 @@ package com.justfun.common.annotation;
 import java.lang.annotation.*;
 
 /**
- * @author pangxin001
+ * @author kangarooxin
  */
 @Target({ElementType.PARAMETER})
 @Retention(RetentionPolicy.RUNTIME)

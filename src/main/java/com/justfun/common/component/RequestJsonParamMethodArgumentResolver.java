@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.net.URLEncoder;
 
 /**
- * @author pangxin001
+ * @author kangarooxin
  */
 public class RequestJsonParamMethodArgumentResolver extends AnnotationMethodArgumentResolver<RequestJsonParam> {
 

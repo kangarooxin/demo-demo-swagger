@@ -22,7 +22,7 @@ import static springfox.documentation.service.Parameter.DEFAULT_PRECEDENCE;
 import static springfox.documentation.spi.schema.contexts.ModelContext.inputParam;
 
 /**
- * @author pangxin001
+ * @author kangarooxin
  */
 @Component
 @Order

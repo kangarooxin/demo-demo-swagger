@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author pangxin001
+ * @author kangarooxin
  */
 public class RequestJsonBodyMethodArgumentResolver extends AnnotationMethodArgumentResolver<RequestJsonBody> {
 

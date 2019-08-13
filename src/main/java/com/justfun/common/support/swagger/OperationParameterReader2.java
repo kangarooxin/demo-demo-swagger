@@ -38,7 +38,7 @@ import static springfox.documentation.schema.Types.isBaseType;
 import static springfox.documentation.schema.Types.typeNameFor;
 
 /**
- * @author pangxin001
+ * @author kangarooxin
  */
 @Component
 @Order

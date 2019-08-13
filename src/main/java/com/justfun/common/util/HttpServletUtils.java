@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author pangxin001
+ * @author kangarooxin
  */
 public class HttpServletUtils {
 

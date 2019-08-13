@@ -14,7 +14,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * @author pangxin001
+ * @author kangarooxin
  */
 @Configuration
 @EnableSwagger2
@@ -40,7 +40,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("Spring Boot Api Documentation")
-                .contact(new Contact("pangxin001", "", "pangxin001@163.com"))
+                .contact(new Contact("kangarooxin", "", "kangarooxin@163.com"))
                 .version("1.0.0")
                 .build();
     }

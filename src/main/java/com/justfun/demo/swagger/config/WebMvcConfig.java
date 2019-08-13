@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author pangxin001
+ * @author kangarooxin
  */
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {

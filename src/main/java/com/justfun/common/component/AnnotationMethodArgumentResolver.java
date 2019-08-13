@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.lang.annotation.Annotation;
 
 /**
- * @author pangxin001
+ * @author kangarooxin
  */
 public abstract class AnnotationMethodArgumentResolver<T extends Annotation> implements HandlerMethodArgumentResolver {
 

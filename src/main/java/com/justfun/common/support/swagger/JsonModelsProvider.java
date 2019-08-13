@@ -16,7 +16,7 @@ import springfox.documentation.spi.service.contexts.RequestMappingContext;
 import java.util.List;
 
 /**
- * @author pangxin001
+ * @author kangarooxin
  */
 @Component
 @Order(Ordered.HIGHEST_PRECEDENCE)

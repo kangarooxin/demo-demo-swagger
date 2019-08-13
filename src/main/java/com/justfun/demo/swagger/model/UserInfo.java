@@ -3,7 +3,7 @@ package com.justfun.demo.swagger.model;
 import lombok.Data;
 
 /**
- * @author pangxin001
+ * @author kangarooxin
  */
 @Data
 public class UserInfo {
